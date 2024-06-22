@@ -20,11 +20,11 @@ const Contact: FC = () => {
   return  (
     <section
       id="contact"
-      className="text-white min-h-screen bg-green-900 flex flex-col justify-center items-center py-12 px-4"
+      className="text-black min-h-screen bg-white flex flex-col justify-center items-center py-12 px-4"
     >
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold">Contáctanos</h1>
-        <p className="mt-2 text-lg">Te responderemos lo más pronto posible</p>
+        <h1 className="text-4xl font-bold text-green-600">Contáctanos</h1>
+        <p className="mt-2 text-lg text-gray-700">Te responderemos lo más pronto posible</p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <div className="mb-5">
@@ -70,7 +70,7 @@ const Contact: FC = () => {
           ></textarea>
         </div>
         <div>
-          <button className="hover:shadow-form rounded-md bg-pink-500 py-3 px-8 text-base font-semibold text-white outline-none">
+          <button className="hover:shadow-form rounded-md bg-green-600 py-3 px-8 text-base font-semibold text-white outline-none">
             Enviar
           </button>
         </div>

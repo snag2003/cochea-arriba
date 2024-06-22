@@ -1,9 +1,10 @@
 "use client"
 
 import Image from "next/image";
-import Logo from "../../public/logo.png"
-import Menu from "../../public/menu.svg"
-import CloseButton from "../../public/close.svg"
+import Logo from "../../public/logo.png";
+import LogoW from "../../public/logoW.png";
+import Menu from "../../public/menu.svg";
+import CloseButton from "../../public/close.svg";
 import Link from 'next/link';
 import { useState } from 'react';
 
@@ -14,10 +15,13 @@ function NavBar() {
       <nav className="w-full bg-white fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              {/* LOGO */}
+            <div className="flex items-center justify-between py-2 md:py-3 md:block">
+              {/* LOGOS */}
               <Link href="/">
-              <Image src={Logo} width={70} height={70} alt="Logo" />
+                <div className="flex items-center">
+                  <Image src={LogoW} width={60} height={60} alt="Wonder" />
+                  <Image src={Logo} width={60} height={60} alt="JuventudAgro" />
+                </div>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
@@ -43,24 +47,24 @@ function NavBar() {
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                <li className="pb-6 text-xl py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-green-900  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
+                <li className="text-l py-2 px-6 text-center border-b-2 md:border-b-0  hover:bg-green-900  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
                   <Link href="#about" onClick={() => setNavbar(!navbar)}>
                     Nosotros
                   </Link>
                 </li>
-                <li className="pb-6 text-xl py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
+                <li className="text-l py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
                   <Link href="#Weather" onClick={() => setNavbar(!navbar)}>
                     Clima
                   </Link>
                 </li>
-                <li className="pb-6 text-xl py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
+                <li className="text-l py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
                   <Link href="#Irrigation" onClick={() => setNavbar(!navbar)}>
                     Irrigación
                   </Link>
                 </li>
-                <li className="pb-6 text-xl py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
+                <li className="text-l py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
-                  Contáctanos
+                    Contáctanos
                   </Link>
                 </li>
               </ul>

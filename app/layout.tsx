@@ -11,8 +11,8 @@ const Rethink = Rethink_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Cochea Arriba",
-  description: "JuventudAgro",
+  title: "Operación Cochea",
+  description: "JuventudAgro & WonderPma",
 };
 
 export default function RootLayout({
