@@ -15,7 +15,7 @@ export default function AboutTitle() {
           className="opacity-80" // Adjust opacity if needed
         />
       </div>
-      <div className="absolute inset-0 flex items-center justify-center z-10">
+      <div className="absolute inset-0 flex items-center justify-center z-8">
         <div className="container mx-auto px-4">
           <h2 className="text-6xl font-semibold text-white">Nosotros</h2>
         </div>
