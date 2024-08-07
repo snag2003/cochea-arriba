@@ -24,7 +24,7 @@ const Weather: React.FC = () => {
   }, []);
 
   return (
-    <section id="Weather" className="py-6 bg-white text-gray-900 mb-[40px]">
+    <section id="weather" className="py-6 bg-white text-gray-900 mb-[40px]">
       <div className="container mx-auto text-center">
         <h2 className="text-7xl font-bold mb-8">Clima</h2>
       </div>

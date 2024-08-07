@@ -53,12 +53,12 @@ function NavBar() {
                   </Link>
                 </li>
                 <li className="text-l py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
-                  <Link href="#Weather" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#weather" onClick={() => setNavbar(!navbar)}>
                     Clima
                   </Link>
                 </li>
                 <li className="text-l py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-green-600  border-green-900  md:hover:text-green-600 md:hover:bg-transparent">
-                  <Link href="#Irrigation" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#irrigation" onClick={() => setNavbar(!navbar)}>
                     Irrigación
                   </Link>
                 </li>
