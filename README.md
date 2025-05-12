@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌱 Operación Cochea - Agricultural Initiative Website 🌱
 
-## Getting Started
+## 📋 Overview
+This repository contains the codebase for the Operación Cochea website, an agricultural initiative led by Wonder Panama and Juventud Agro foundations. The project aims to address food security challenges in Cochea, a village in Chiriquí, Panama, by creating multifunctional gardens and providing nutritional education to children and parents.
 
-First, run the development server:
+**Live Demo:** [Cochea Arriba](https://cochea-arriba.vercel.app/)
 
+## ✨ Project Features
+- **🌐 Multilingual Support**: Website currently available in Spanish with potential for extension
+- **🌦️ Climate Data**: Real-time climate information and forecasts for the Cochea region
+- **💧 Irrigation Resources**: Information about cultivation irrigation techniques and data
+- **🔒 Protected Information Area**: Secure access for project partners and stakeholders
+- **📨 Contact Form**: Direct communication channel with the project team
+
+## 🛠️ Technology Stack
+- **⚛️ Frontend Framework**: Next.js
+- **☁️ Deployment**: Vercel
+- **🎨 Styling**: Custom CSS with Tailwind
+- **📊 Data Handling**: Using APIs for climate forecasting
+
+## 📚 Pages
+1. **👥 Nosotros (About Us)**: Information about the Operación Cochea initiative and its mission
+2. **🌤️ Clima (Climate)**: Weather forecasts and climate data for agricultural planning
+3. **💦 Irrigación (Irrigation)**: Resources for irrigation techniques and water management
+4. **📞 Contáctanos (Contact Us)**: Form to get in touch with the project team
+
+## 🚀 Installation and Local Development
+1. Clone the repository:
+```bash
+git clone https://github.com/snag2003/cochea-arriba.git
+cd operacion-cochea
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚢 Deployment
+The website is deployed on Vercel. Any push to the main branch will trigger an automatic deployment to the production environment.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To manually deploy:
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Learn More
+Then:
+```bash
+vercel --prod
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🔐 Environment Variables
+Create a `.env.local` file in the root directory with the following variables:
+```
+# Add your environment variables here
+# Example:
+# API_KEY=your_api_key
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Contributing
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add some amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📝 License
+This project is maintained by Stephany Acosta © 2024.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📬 Contact
+For more information about this project, please contact the team through the website's contact form.
